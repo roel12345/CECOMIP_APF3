@@ -1,0 +1,21 @@
+# Archivos generados y configuración local
+/target/
+/build/
+/dist/
+/nbproject/private/
+.idea/
+*.class
+*.log
+.env
+.env.*
+!.env.example
+# Información personal y documentos fiscales: nunca subir a repositorio
+/datos/
+/facturas/
+*.bak
+*.mdf
+*.ldf
+*.bacpac
+# Credenciales y capturas sensibles
+**/application-secret.properties
+**/config-local.properties

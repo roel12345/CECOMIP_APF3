@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+  <action>
+    <actionName>run</actionName>
+    <goals>
+      <goal>process-classes</goal>
+      <goal>org.codehaus.mojo:exec-maven-plugin:3.5.1:java</goal>
+    </goals>
+    <properties>
+      <exec.mainClass>proyecto.Main</exec.mainClass>
+    </properties>
+  </action>
+  <action>
+    <actionName>test</actionName>
+    <goals><goal>test</goal></goals>
+  </action>
+</actions>
